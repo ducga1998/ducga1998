@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Steve-Tech's GitHub Profile README.md, hand coded by myself -->
+<!-- Minh Duc's GitHub Profile README.md, hand coded by myself -->
 <!-- Works on Windows and Ubuntu, doesn't work on Android -->
 <svg version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -43,14 +43,13 @@
     </style>
 
     <g id="text" fill="#080">
-        <text x="16" y="186">Hello, Welcome to my GitHub profile!</text>
-        <text x="16" y="208">I like writing code and running my own servers.</text>
-
+        <text x="16" y="0">Hello, Welcome to my GitHub profile!</text>
+        <text x="16" y="22">I like writing code and running my own servers.</text>
 
         <text x="16" y="362">If you'd like to use my code for yourself and there isn't a licence in the repo,</text>
         <text x="16" y="384">create a PR with your suggested/preferred licence,</text>
         <text x="16" y="406">and if I don't respond within a reasonable amount of time, borrow it, but leave credit.</text>
-        <text x="16" y="450">github.com/Steve-Tech:~$<tspan>█ <animate attributeName="fill"
+        <text x="16" y="450">github.com/ducga1998:~$<tspan>█ <animate attributeName="fill"
                     values="#080;transparent"
                     dur="1s" calcMode="discrete" repeatCount="indefinite" />
             </tspan>
