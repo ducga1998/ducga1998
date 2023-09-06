@@ -48,7 +48,7 @@
         
 
 
-        <text x="16" y="66">github.com/ducga1998:~$<tspan>█ <animate attributeName="fill"
+        <text x="16" y="66">github.com/ducga1998:~$  sudo the_world <tspan>█ <animate attributeName="fill"
                     values="#080;transparent"
                     dur="1s" calcMode="discrete" repeatCount="indefinite" />
             </tspan>
@@ -57,7 +57,7 @@
     <g id="bar" fill="#222">
         <rect x="0" y="616" width="1024" height="24" fill="#080"></rect>
         <text x="16" y="634" id="bar-left">github.com/ducga1998</text>
-        sudo the_world<text x="1008" y="634" id="bar-right" style="text-anchor: end;">README.md</text>
+        <text x="1008" y="634" id="bar-right" style="text-anchor: end;">README.md</text>
     </g>
     <rect id="outline" x="0" y="0" width="1024" height="640" stroke="#000" stroke-width="2" fill="transparent"></rect>
 </svg>
