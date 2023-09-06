@@ -46,10 +46,9 @@
         <text x="16" y="22">Hello, Welcome to my GitHub profile!</text>
         <text x="16" y="44">I like writing code and running my own servers.</text>
 
-        <text x="16" y="66">If you'd like to use my code for yourself and there isn't a licence in the repo,</text>
-        <text x="16" y="384">create a PR with your suggested/preferred licence,</text>
-        <text x="16" y="406">and if I don't respond within a reasonable amount of time, borrow it, but leave credit.</text>
-        <text x="16" y="450">github.com/ducga1998:~$<tspan>█ <animate attributeName="fill"
+
+
+        <text x="16" y="66">github.com/ducga1998:~$<tspan>█ <animate attributeName="fill"
                     values="#080;transparent"
                     dur="1s" calcMode="discrete" repeatCount="indefinite" />
             </tspan>
