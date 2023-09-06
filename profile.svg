@@ -53,7 +53,7 @@
                     dur="1s" calcMode="discrete" repeatCount="indefinite" />
             </tspan>
         </text>
-        <text x="16" y="88" font-family="Arial" font-size="40" fill="black">
+        <text x="16" y="88" font-family="Arial" font-size="18" >
     <tspan dy="0">
       <animate attributeName="dy"
                attributeType="XML"
