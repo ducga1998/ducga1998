@@ -54,18 +54,7 @@
             </tspan>
         </text>
         <text x="16" y="220" font-family="Arial" font-size="18" >
-    <tspan dy="0">
-      <animate attributeName="dy"
-               attributeType="XML"
-               from="0" to="-20"
-               begin="0s"
-               dur="0.5s"
-               repeatCount="indefinite"
-               keyTimes="0;0.5;1"
-               keySplines="0.42,0,0.58,1;0.42,0,0.58,1"
-               calcMode="spline"/>
-      Duncan
-    </tspan>
+
   </text>
     </g>
     <g id="bar" fill="#222">
