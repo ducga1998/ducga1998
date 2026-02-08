@@ -1,5 +1,3 @@
-
-<!-- ducga1998's GitHub Profile README.md -->
 <svg version="1.1"
     xmlns="http://www.w3.org/2000/svg"
     width="1000" height="600"
@@ -9,107 +7,57 @@
             background-color: #0d1117;
             font-family: 'Courier New', 'Consolas', monospace;
         }
-
-        .title {
-            fill: #58a6ff;
-            font-size: 20px;
-            font-weight: bold;
-        }
-
-        .subtitle {
-            fill: #8b949e;
-            font-size: 13px;
-        }
-
-        .prompt {
-            fill: #7ee787;
-            font-size: 14px;
-        }
-
-        .text {
-            fill: #c9d1d9;
-            font-size: 14px;
-        }
-
-        .highlight {
-            fill: #ffa657;
-            font-size: 14px;
-        }
-
-        .command {
-            fill: #79c0ff;
-            font-size: 14px;
-        }
-
-        /* Blinking cursor - GitHub safe */
-        .cursor {
-            fill: #7ee787;
-            animation: blink 1s infinite;
-        }
-
-        @keyframes blink {
-            0%, 49% {opacity: 1;}
-            50%, 100% {opacity: 0;}
-        }
+        .title { fill: #58a6ff; font-size: 20px; font-weight: bold; }
+        .subtitle { fill: #8b949e; font-size: 13px; }
+        .prompt { fill: #7ee787; font-size: 14px; }
+        .text { fill: #c9d1d9; font-size: 14px; }
+        .highlight { fill: #ffa657; font-size: 14px; }
+        .command { fill: #79c0ff; font-size: 14px; }
+        .cursor { fill: #7ee787; animation: blink 1s infinite; }
+        @keyframes blink { 0%, 49% {opacity: 1;} 50%, 100% {opacity: 0;} }
     </style>
 
-    <!-- Header -->
     <text x="20" y="35" class="title">ducga1998@github:~$</text>
-    <text x="20" y="55" class="subtitle">Quantitative Trader &amp </text>
-    
+    <text x="20" y="55" class="subtitle">Quantitative Trader &amp; Full-Stack Developer</text>
     <line x1="20" y1="70" x2="980" y2="70" stroke="#30363d" stroke-width="1"/>
 
-    <!-- About Section -->
     <text x="20" y="100" class="prompt">user@terminal:~$</text>
     <text x="180" y="100" class="command">cat about.txt</text>
-    
     <text x="20" y="125" class="text">Building algorithmic trading systems that don't sleep. Automating</text>
     <text x="20" y="145" class="text">strategies, backtesting relentlessly, and optimizing every edge in</text>
     <text x="20" y="165" class="text">the market. Code meets quantitative finance meets execution.</text>
     
-    <!-- Tech Stack -->
     <text x="20" y="200" class="prompt">user@terminal:~$</text>
     <text x="180" y="200" class="command">ls -la tech_stack/</text>
-    
     <text x="20" y="225" class="highlight">▸ Languages:</text>
-    <text x="160" y="225" class="text">Python | Pine Script v6 | C++</text>
-    
+    <text x="160" y="225" class="text">Python | Pine Script v6 | C++ | TypeScript</text>
     <text x="20" y="245" class="highlight">▸ Trading:</text>
-    <text x="160" y="245" class="text">backtrader | PyFolio | MT5 | QuantLib</text>
-    
+    <text x="160" y="245" class="text">Backtrader | VectorBT | MT5 | Interactive Brokers API</text>
     <text x="20" y="265" class="highlight">▸ AI/ML:</text>
-    <text x="160" y="265" class="text">langgraph | Multi-Agent Systems | TensorFlow</text>
-    
+    <text x="160" y="265" class="text">LangGraph | Multi-Agent Systems | PyTorch | YOLO</text>
     <text x="20" y="285" class="highlight">▸ Data:</text>
-    <text x="160" y="285" class="text"></text>
+    <text x="160" y="285" class="text">Pandas | NumPy | SQL | KDB+ | Redis</text>
 
-    <!-- Current Projects -->
-    <text x="20" y="320" class="prompt">user@terminal:~$</text>
-    <text x="180" y="320" class="command">tail -f current_projects.log</text>
+    <text x="20" y="325" class="prompt">user@terminal:~$</text>
+    <text x="180" y="325" class="command">tail -f current_projects.log</text>
+    <text x="20" y="350" class="text">→ Architecting multi-agent LLM trading systems</text>
+    <text x="20" y="370" class="text">→ Local-first personal styling &amp; virtual try-on AI</text>
+    <text x="20" y="390" class="text">→ Backtesting profit factor optimization frameworks</text>
+    <text x="20" y="410" class="text">→ Scaling ultra-trail performance tracking algorithms</text>
+
+    <text x="20" y="450" class="prompt">user@terminal:~$</text>
+    <text x="180" y="450" class="command">sudo cat /etc/philosophy</text>
+    <text x="20" y="475" class="highlight">"Sudo the world—because the best trades aren't on</text>
+    <text x="20" y="495" class="highlight">charts, they're in the systems you build. Code the</text>
+    <text x="20" y="515" class="highlight">strategy, optimize the edge, own the execution."</text>
+
+    <text x="20" y="555" class="prompt">user@terminal:~$</text>
+    <text x="180" y="555" class="command">./deploy_strategy.sh --live</text>
+    <rect x="460" y="542" width="10" height="16" class="cursor"/>
+
+    <rect x="0" y="565" width="1000" height="35" fill="#161b22"/>
+    <text x="20" y="588" class="text" font-size="12">📍 github.com/ducga1998</text>
+    <text x="910" y="588" class="text" font-size="12">README.md</text>
     
-    <text x="20" y="345" class="text">→ Architecting multi-agent LLM trading systems</text>
-    <text x="20" y="365" class="text">→ Optimizing Bollinger Bands for volatile markets</text>
-    <text x="20" y="385" class="text">→ Backtesting profit factor optimization frameworks</text>
-    <text x="20" y="405" class="text">→ Building low-latency execution infrastructure</text>
-
-    <!-- Philosophy -->
-    <text x="20" y="440" class="prompt">user@terminal:~$</text>
-    <text x="180" y="440" class="command">sudo cat /etc/philosophy</text>
-    
-    <text x="20" y="465" class="highlight">"Sudo the world—because the best trades aren't on</text>
-    <text x="20" y="485" class="highlight">charts, they're in the systems you build. Code the</text>
-    <text x="20" y="505" class="highlight">strategy, optimize the edge, own the execution."</text>
-
-    <!-- Command Prompt -->
-    <text x="20" y="545" class="prompt">user@terminal:~$</text>
-    <text x="180" y="545" class="command">./deploy_strategy.sh --live</text>
-    <rect x="460" y="532" width="10" height="16" class="cursor"/>
-
-    <!-- Footer -->
-    <rect x="0" y="560" width="1000" height="40" fill="#161b22"/>
-    <text x="20" y="583" class="text" font-size="13">📍 github.com/ducga1998</text>
-    <text x="850" y="583" class="text" font-size="13">README.md</text>
-    
-    <!-- Border -->
     <rect x="0" y="0" width="1000" height="600" stroke="#30363d" stroke-width="2" fill="transparent"/>
 </svg>
