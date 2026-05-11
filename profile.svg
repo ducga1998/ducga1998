@@ -7,57 +7,58 @@
             background-color: #0d1117;
             font-family: 'Courier New', 'Consolas', monospace;
         }
-        .title { fill: #58a6ff; font-size: 20px; font-weight: bold; }
+        .title    { fill: #58a6ff; font-size: 20px; font-weight: bold; }
         .subtitle { fill: #8b949e; font-size: 13px; }
-        .prompt { fill: #7ee787; font-size: 14px; }
-        .text { fill: #c9d1d9; font-size: 14px; }
-        .highlight { fill: #ffa657; font-size: 14px; }
-        .command { fill: #79c0ff; font-size: 14px; }
-        .cursor { fill: #7ee787; animation: blink 1s infinite; }
+        .prompt   { fill: #7ee787; font-size: 14px; }
+        .text     { fill: #c9d1d9; font-size: 14px; }
+        .highlight{ fill: #ffa657; font-size: 14px; }
+        .command  { fill: #79c0ff; font-size: 14px; }
+        .cursor   { fill: #7ee787; animation: blink 1s infinite; }
         @keyframes blink { 0%, 49% {opacity: 1;} 50%, 100% {opacity: 0;} }
     </style>
 
     <text x="20" y="35" class="title">ducga1998@github:~$</text>
-    <text x="20" y="55" class="subtitle">Quantitative Trader &amp; Full-Stack Developer</text>
+    <text x="20" y="55" class="subtitle">Builder · Quant · Ultra-trail runner — Hanoi, VN</text>
     <line x1="20" y1="70" x2="980" y2="70" stroke="#30363d" stroke-width="1"/>
 
-    <text x="20" y="100" class="prompt">user@terminal:~$</text>
-    <text x="180" y="100" class="command">cat about.txt</text>
-    <text x="20" y="125" class="text">Building algorithmic trading systems that don't sleep. Automating</text>
-    <text x="20" y="145" class="text">strategies, backtesting relentlessly, and optimizing every edge in</text>
-    <text x="20" y="165" class="text">the market. Code meets quantitative finance meets execution.</text>
-    
-    <text x="20" y="200" class="prompt">user@terminal:~$</text>
-    <text x="180" y="200" class="command">ls -la tech_stack/</text>
-    <text x="20" y="225" class="highlight">▸ Languages:</text>
-    <text x="160" y="225" class="text">Python | Pine Script v6 | C++ | TypeScript</text>
-    <text x="20" y="245" class="highlight">▸ Trading:</text>
-    <text x="160" y="245" class="text">Backtrader | VectorBT | MT5 | Interactive Brokers API</text>
-    <text x="20" y="265" class="highlight">▸ AI/ML:</text>
-    <text x="160" y="265" class="text">LangGraph | Multi-Agent Systems | PyTorch | YOLO</text>
-    <text x="20" y="285" class="highlight">▸ Data:</text>
-    <text x="160" y="285" class="text">Pandas | NumPy | SQL | KDB+ | Redis</text>
+    <text x="20"  y="95" class="prompt">user@terminal:~$</text>
+    <text x="180" y="95" class="command">cat about.txt</text>
+    <text x="20" y="120" class="text">Engineer at AhaSlides. Shipping a Strava-integrated AI coach</text>
+    <text x="20" y="140" class="text">for Southeast Asian ultra and trail runners. Building LLM-driven</text>
+    <text x="20" y="160" class="text">quant systems on MT5. Training for VMM 160km, Sapa — Sep 2026.</text>
+    <text x="20" y="180" class="text">Code. Capital. Kilometers.</text>
 
-    <text x="20" y="325" class="prompt">user@terminal:~$</text>
-    <text x="180" y="325" class="command">tail -f current_projects.log</text>
-    <text x="20" y="350" class="text">→ Architecting multi-agent LLM trading systems</text>
-    <text x="20" y="370" class="text">→ Local-first personal styling &amp; virtual try-on AI</text>
-    <text x="20" y="390" class="text">→ Backtesting profit factor optimization frameworks</text>
-    <text x="20" y="410" class="text">→ Scaling ultra-trail performance tracking algorithms</text>
+    <text x="20"  y="215" class="prompt">user@terminal:~$</text>
+    <text x="180" y="215" class="command">ls -la stack/</text>
+    <text x="20"  y="240" class="highlight">▸ Languages:</text>
+    <text x="160" y="240" class="text">TypeScript · Python · Pine Script v6</text>
+    <text x="20"  y="260" class="highlight">▸ Backend:</text>
+    <text x="160" y="260" class="text">Node.js · Fastify · PostgreSQL · Cloudflare Workers/DO</text>
+    <text x="20"  y="280" class="highlight">▸ Trading:</text>
+    <text x="160" y="280" class="text">MetaTrader 5 · Backtrader · pandas · NumPy</text>
+    <text x="20"  y="300" class="highlight">▸ Agents/AI:</text>
+    <text x="160" y="300" class="text">LangGraph · LangChain · MCP · Anthropic API</text>
 
-    <text x="20" y="450" class="prompt">user@terminal:~$</text>
-    <text x="180" y="450" class="command">sudo cat /etc/philosophy</text>
-    <text x="20" y="475" class="highlight">"Sudo the world—because the best trades aren't on</text>
-    <text x="20" y="495" class="highlight">charts, they're in the systems you build. Code the</text>
-    <text x="20" y="515" class="highlight">strategy, optimize the edge, own the execution."</text>
+    <text x="20"  y="335" class="prompt">user@terminal:~$</text>
+    <text x="180" y="335" class="command">tail -f current_projects.log</text>
+    <text x="20" y="360" class="text">→ Strava AI coach (TS · Fastify · Postgres · CF Workers)</text>
+    <text x="20" y="380" class="text">→ Bollinger-Bands LLM auto-optimizer (MT5 · Bayesian opt · WFA)</text>
+    <text x="20" y="400" class="text">→ Agentic dev workflows: parallel subagents, git worktrees</text>
+    <text x="20" y="420" class="text">→ VMM 160km prep: 24-week periodized training block</text>
 
-    <text x="20" y="555" class="prompt">user@terminal:~$</text>
-    <text x="180" y="555" class="command">./deploy_strategy.sh --live</text>
-    <rect x="460" y="542" width="10" height="16" class="cursor"/>
+    <text x="20"  y="455" class="prompt">user@terminal:~$</text>
+    <text x="180" y="455" class="command">sudo cat /etc/philosophy</text>
+    <text x="20" y="480" class="highlight">"Ship the system, not the opinion. The edge isn't a</text>
+    <text x="20" y="500" class="highlight">chart pattern — it's the loop you run while everyone</text>
+    <text x="20" y="520" class="highlight">else is asleep. Build it. Test it. Deploy it."</text>
+
+    <text x="20"  y="555" class="prompt">user@terminal:~$</text>
+    <text x="180" y="555" class="command">./deploy.sh --live</text>
+    <rect x="340" y="542" width="10" height="16" class="cursor"/>
 
     <rect x="0" y="565" width="1000" height="35" fill="#161b22"/>
-    <text x="20" y="588" class="text" font-size="12">📍 github.com/ducga1998</text>
+    <text x="20"  y="588" class="text" font-size="12">📍 github.com/ducga1998 · AhaSlides · VMM 2026</text>
     <text x="910" y="588" class="text" font-size="12">README.md</text>
-    
-    <rect x="0" y="0" width="1000" height="600" stroke="#30363d" stroke-width="2" fill="transparent"/>
+
+    <rect x="0" y="0" width="1000" height="600" stroke="#30363d" stroke-width="2" fill="none"/>
 </svg>
